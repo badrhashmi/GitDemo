@@ -1,0 +1,4 @@
+10:54:45.066 [TestNG-tests-2] INFO  resources.Base - Navigated to Homepage
+10:54:45.788 [AsyncHttpClient-1-9] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+10:54:48.327 [TestNG-tests-3] INFO  resources.Base - Navigation bar is Displayed
+10:54:48.328 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

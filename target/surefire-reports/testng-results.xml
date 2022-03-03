@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22686" started-at="2022-02-04T10:54:26 PKT" finished-at="2022-02-04T10:54:48 PKT">
+    <groups>
+    </groups>
+    <test name="homepage" duration-ms="18911" started-at="2022-02-04T10:54:26 PKT" finished-at="2022-02-04T10:54:45 PKT">
+      <class name="academy.E2EProject.HomePage">
+        <test-method status="PASS" signature="initilaize()[pri:0, instance:academy.E2EProject.HomePage@4b8729ff]" name="initilaize" is-config="true" duration-ms="4955" started-at="2022-02-04T10:54:26 PKT" finished-at="2022-02-04T10:54:31 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaize -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:academy.E2EProject.HomePage@4b8729ff]" name="HomePageNavigation" duration-ms="13264" started-at="2022-02-04T10:54:31 PKT" data-provider="getData" finished-at="2022-02-04T10:54:44 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:academy.E2EProject.HomePage@4b8729ff]" name="CloseBrowser" is-config="true" duration-ms="631" started-at="2022-02-04T10:54:44 PKT" finished-at="2022-02-04T10:54:45 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- academy.E2EProject.HomePage -->
+    </test> <!-- homepage -->
+    <test name="Validate text" duration-ms="20123" started-at="2022-02-04T10:54:26 PKT" finished-at="2022-02-04T10:54:46 PKT">
+      <class name="academy.E2EProject.Validatetext">
+        <test-method status="PASS" signature="initilaize()[pri:0, instance:academy.E2EProject.Validatetext@3cce57c7]" name="initilaize" is-config="true" duration-ms="18793" started-at="2022-02-04T10:54:26 PKT" finished-at="2022-02-04T10:54:45 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaize -->
+        <test-method status="FAIL" signature="ValidateText()[pri:0, instance:academy.E2EProject.Validatetext@3cce57c7]" name="ValidateText" duration-ms="118" started-at="2022-02-04T10:54:45 PKT" finished-at="2022-02-04T10:54:45 PKT">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...> but was:<...123>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...> but was:<...123>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at academy.E2EProject.Validatetext.ValidateText(Validatetext.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateText -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:academy.E2EProject.Validatetext@3cce57c7]" name="CloseBrowser" is-config="true" duration-ms="607" started-at="2022-02-04T10:54:45 PKT" finished-at="2022-02-04T10:54:46 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- academy.E2EProject.Validatetext -->
+    </test> <!-- Validate text -->
+    <test name="Validate Navbar" duration-ms="22686" started-at="2022-02-04T10:54:26 PKT" finished-at="2022-02-04T10:54:48 PKT">
+      <class name="academy.E2EProject.ValidateNavbar">
+        <test-method status="PASS" signature="initilaize()[pri:0, instance:academy.E2EProject.ValidateNavbar@3576ddc2]" name="initilaize" is-config="true" duration-ms="21868" started-at="2022-02-04T10:54:26 PKT" finished-at="2022-02-04T10:54:48 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilaize -->
+        <test-method status="PASS" signature="ValidateNavigation()[pri:0, instance:academy.E2EProject.ValidateNavbar@3576ddc2]" name="ValidateNavigation" duration-ms="183" started-at="2022-02-04T10:54:48 PKT" finished-at="2022-02-04T10:54:48 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNavigation -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:academy.E2EProject.ValidateNavbar@3576ddc2]" name="CloseBrowser" is-config="true" duration-ms="630" started-at="2022-02-04T10:54:48 PKT" finished-at="2022-02-04T10:54:48 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- academy.E2EProject.ValidateNavbar -->
+    </test> <!-- Validate Navbar -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,4 @@
+15:13:48.192 [AsyncHttpClient-1-3] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+15:13:48.370 [TestNG-tests-2] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd9de74cb62f28d47
+15:13:48.437 [TestNG-tests-2] INFO  resources.Base - Driver is initialized
+15:13:59.194 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
